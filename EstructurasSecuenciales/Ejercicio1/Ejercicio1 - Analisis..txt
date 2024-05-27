@@ -1,0 +1,26 @@
+EJERCICIO 1: 
+
+Un estudiante está cursando 5 materias, tiene la nota de cada
+materia y quiere saber cuál es su promedio. Realizar el análisis, diseño (pseudocódigo), diagrama de flujo y pruebas de escritorio.
+
+Análisis
+
+Un estudiante necesita calcular su promedio de notas en 5 materias. El programa debe tomar las notas ingresadas por el usuario, calcular el promedio de estas notas y mostrarlo como resultado. Esto se logra sumando todas las notas y dividiendo esta suma entre 5. El resultado es el promedio de las notas del estudiante.
+
+Datos de entrada: Notas de las 5 materias.
+Datos de salida: Promedio de las notas.
+Proceso: Sumar todas las notas. Dividir la suma de las notas entre el número total de materias.
+
+Pruebas de escritorio:
+
+Caso1:
+
+Entrada: nota1 = 5, nota2 = 4, nota3 = 3, nota4 = 2, nota5 = 1
+Proceso: (5 + 4 + 3 + 2 + 1) / 5 = 3
+Salida esperada: El promedio es: 3
+
+Caso 2:
+
+Entrada: nota1 = 10, nota2 = 9, nota3 = 8, nota4 = 7, nota5 = 6
+Proceso: (10 + 9 + 8 + 7 + 6) / 5 = 8
+Salida esperada: El promedio es: 8
