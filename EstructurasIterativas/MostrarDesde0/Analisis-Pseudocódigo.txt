@@ -1,0 +1,19 @@
+Mostrar Numeros: 
+
+Análisis:
+
+Datos de entrada: Un número entero n (el número hasta el cual se mostrarán los números).
+Proceso: Mostrar todos los números desde 0 hasta n.
+Salida: Los números desde 0 hasta n.
+
+
+Pseudocódigo:
+
+Algoritmo MostrarNumeros
+   Definir n Como Entero;
+   Escribir "Ingrese un número: ";
+   Leer n;
+   Para i <- 0 Hasta n Hacer
+      Escribir i;
+   Fin Para
+FinAlgoritmo
