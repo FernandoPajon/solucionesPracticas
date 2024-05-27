@@ -1,0 +1,30 @@
+EJERCICIO 2: 
+
+Un pintor de casas debe hacer un presupuesto para un cliente. Lo
+que cobra se calcula de acuerdo a los metros cuadrados que debe pintar. El
+cliente le indica que necesita conocer el costo de mano de obra para pintar una pared rectangular de un galpón. El pintor cobra un monto fijo por cada metro cuadrado. Puedes hacer un algoritmo para calcular el costo de mano de obra para pintar la pared. Realizar el análisis, diseño (pseudocódigo), diagrama de flujo y pruebas de escritorio.
+
+Análisis
+
+El pintor cobra un monto fijo por cada metro cuadrado que pinta. Para calcular el costo total, necesitamos saber las dimensiones de la pared (altura y ancho en metros) y el costo por metro cuadrado.
+
+Datos de entrada: Altura de la pared (en metros), ancho de la pared (en metros) y costo por metro cuadrado.
+Datos de salida: Costo total de la mano de obra por pintar la pared. 
+Proceso:
+Solicitar al usuario que ingrese la altura y el ancho de la pared, así como el costo por metro cuadrado. Calcular el área de la pared multiplicando la altura por el ancho. Calcular el costo total multiplicando el área de la pared por el costo por metro cuadrado.
+
+Pruebas de escritorio:
+
+Caso 1: 
+
+Entrada: Largo = 5m, Ancho = 4m, Precio por metro cuadrado = $10
+Proceso: Área = 5 * 4 = 20m², Costo = 20 * 10 = $200
+Salida esperada: El costo de mano de obra para pintar la pared es: $200
+
+Caso 2: 
+
+Caso de prueba 2:
+Entrada: Largo = 10m, Ancho = 3m, Precio por metro cuadrado = $8
+Proceso: Área = 10 * 3 = 30m², Costo = 30 * 8 = $240
+Salida esperada: El costo de mano de obra para pintar la pared es: $240
+
