@@ -1,0 +1,32 @@
+EJERCICIO 3: 
+
+Un hincha de fútbol desea conocer la cantidad de puntos que su
+equipo lleva acumulados en el campeonato, para ello recibe cada semana la
+información de la cantidad total de partidos, desde el inicio del campeonato, que
+el equipo ha perdido, ha empatado y ha ganado. Por cada partido empatado
+recibe un punto, por cada partido ganado tres puntos y por los perdidos cero
+puntos. Realizar el análisis, diseño (pseudocódigo), diagrama de flujo y pruebas de
+escritorio.
+
+Análisis: 
+
+Un hincha de fútbol desea saber cuántos puntos ha acumulado su equipo en el campeonato hasta la fecha. Cada semana, recibe la información sobre la cantidad de partidos ganados, empatados y perdidos. El objetivo es calcular los puntos totales del equipo, donde cada partido ganado suma 3 puntos, cada empate suma 1 punto y los partidos perdidos no suman puntos.
+
+Datos de Entradas: Cantidad de partidos ganados, empatados y perdidos.
+Dato de Salida: Cantidad total de puntos acumulados por el equipo.
+Proceso: Calcular los puntos obtenidos por los partidos ganados (3 puntos por cada uno). Calcular los puntos obtenidos por los partidos empatados (1 punto por cada uno). Sumar los puntos obtenidos en los pasos anteriores.
+
+Pruebas de escritorio:
+
+Caso 1:
+Entrada: partidosGanados = 5, partidosEmpatados = 3, partidosPerdidos = 2
+Proceso: (5 * 3) + (3 * 1) = 15 + 3 = 18
+Salida esperada: El equipo tiene 18 puntos acumulados en el campeonato.
+
+Caso 2:
+Entrada: partidosGanados = 7, partidosEmpatados = 1, partidosPerdidos = 4
+Proceso: (7 * 3) + (1 * 1) = 21 + 1 = 22
+Salida esperada: El equipo tiene 22 puntos acumulados en el campeonato.
+
+
+
