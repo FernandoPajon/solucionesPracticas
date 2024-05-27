@@ -1,0 +1,13 @@
+Calcular el I.V.A
+
+Desarrollar un programa secuencial, planteando su pseudocódigo y Diagrama de Flujo, que permita ingresar un precio, calcular el IVA y mostrar el precio final la lista de un producto. Ejemplo: Si el producto vale $100 de lista, debería mostrarse $121 al consumidor final.
+
+Análisis: 
+
+Necesitamos ingresar el precio de lista de un producto, calcular el IVA (21%) y luego sumar este IVA al precio de lista para obtener el precio final.
+
+Datos de entrada: Precio de lista del producto.
+Proceso: Solicitar al usuario que ingrese el precio de lista del producto. Calcular el IVA multiplicando el precio de lista por 0.21. Sumar el IVA al precio de lista para obtener el precio final.
+Datos de Salida: Precio final del producto.
+
+
